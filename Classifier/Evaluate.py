@@ -82,8 +82,8 @@ def recommend_top_jobs(model, resume_text, job_desc_list, top_k=5):
 
 if __name__ == "__main__":
     # Paths
-    checkpoint_path = "/Users/shaiverma/Documents/CSE4095/DeepLearningProject/DeepLearningProject-2/DeepLearningProject/best_model-2.pth"
-    data_path = "/Users/shaiverma/Documents/CSE4095/DeepLearningProject/DeepLearningProject-2/DeepLearningProject/Data/dev.jsonl"  # Assumes dev.jsonl is in the same folder
+    checkpoint_path = "/Users/shaiverma/Documents/Fall2025/CSE5819/Project/DeepLearningProject/Classifier/Model.py"
+    data_path = "/Users/shaiverma/Documents/Fall2025/CSE5819/Project/DeepLearningProject/Data/dev.jsonl"  # Assumes dev.jsonl is in the same folder
 
     # Load model
     model = TransformerClassifier(num_classes=2).to(device)
