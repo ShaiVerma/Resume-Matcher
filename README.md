@@ -1,4 +1,4 @@
-# Deep Learning Job Recommendation System
+# Deep Learning Based Job Recommendation System
 
 This project is a deep learning-based job recommendation system that helps early-career professionals discover job opportunities aligned with their skills and experiences. The system leverages **BERT** embeddings and a **CNN model** to evaluate resume-job compatibility and output match scores, providing personalized job recommendations.
 
